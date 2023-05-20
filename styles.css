@@ -7,6 +7,14 @@ body {
   }
 
 
+ #img-logo {
+  height: 80px;
+  width: 80px;
+ }
+
+#form-nav {
+  padding-left: 380px;
+}
 
   #main-hero {
     background-image: url(hero-image1.png);
@@ -15,6 +23,7 @@ body {
     background-size: cover;
     color: white;
     height: 500px;
+    padding: 20px;
   }
 
   
@@ -65,12 +74,36 @@ body {
   transform: scale(1.1);
   box-shadow: 0 0 10px #0062cc
 }
+
+
+
+
   
 
   .feature img {
       width: 400px;
       height: 200px;
   }
+
+
+
+
+  .join-us {
+    background-color: white;
+    height: 500px;
+  }
+
+  h2 {
+    color: black;
+    position: center;
+    text-align: center;
+    font-size: 50px;
+  }
+
+
+
+
+
 
   footer {
     background-color: #EAEAEA;
@@ -79,5 +112,43 @@ body {
     padding: 20px;
 
   }
+
+
+
+.nav li a {
+  background-color: #333;
+  color: #fff;
+  background-color: #ccc;
+  color: #333;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  height: 80px;
+  width: 80px;
+}
+
+.nav li a:hover {
+  background-color: #ccc;
+  color: #333;
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #333;
+}
+
+@media (min-width: 850px) {
+  #form-nav {
+  padding-left: 380px;
+}
+
+}
+
+
+@media (max-width: 849px) {
+  #form-nav {
+  text-align: center;
+  position: center;
+}
+
+}
+
 
 
