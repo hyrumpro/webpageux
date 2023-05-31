@@ -40,30 +40,45 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   grid-template-columns: 50px 50px 50px 50px 50px;
+  display: grid;
+
+
+  
 }
 .red2 {
   width: 100px; 
   height: 100px; 
-  background-color: red; 
+  background-color: red;
+
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
-  background-color: green; 
+  background-color: green;
+  margin-top: 40px;
+
+
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
-  background-color: gold; 
+  background-color: gold;
+  margin-top: 80px;
+
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  margin-top: 120px;
 } 
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display:  grid;
+  grid-template-columns: 10px;
+  grid-column-gap: 50px;
+  grid-column: 300px;
 }
 .red3 {
   width: 100px; 
@@ -89,6 +104,8 @@
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
+  display:  grid;
+  grid-template-columns: 10px;
 }
 .red4 {
   width: 100px; 
@@ -114,6 +131,8 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
+  display:  grid;
+  grid-template-columns: 10px;
 }
 .red5 { 
   width: 100px; 
@@ -140,6 +159,8 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  display:  grid;
+  grid-template-columns: 10px;
 }
 .red6 {
   width: 100px; 
