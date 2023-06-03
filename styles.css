@@ -102,6 +102,10 @@ nav {
   text-align: center;
   align-items: center;
 }
+ .card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 
 .rivers-card {
   grid-column: 2 / span 3;
@@ -130,6 +134,7 @@ nav {
 .mountains {
   grid-column: 2 / span 6;
   grid-row: 5 / span 4;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 
 
@@ -143,6 +148,7 @@ nav {
   padding-left: 15px;
   padding-right: 15px;
   margin-right: 50px;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 
 
