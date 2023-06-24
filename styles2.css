@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(32,46,53);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+
+  }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+ #img-logo {
+  height: 80px;
+  width: 80px;
+ }
+
+#form-nav {
+  padding-left: 380px;
+}
+
+
+
+
+.container {
+  margin-top: 40px;
+}
+
+
+.row:first-of-type {
+  margin-bottom: 40px;
+}
+
+.row:first-of-type img {
+  width: 100%;
+  height: auto;
+}
+
+.row:first-of-type h2 {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.row:first-of-type p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.row:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+
+.row:nth-of-type(2) img {
+  width: 100%;
+  height: auto;
+}
+
+.row:nth-of-type(2) p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.row:last-of-type {
+  margin-bottom: 40px;
+}
+
+.row:last-of-type img {
+  width: 100%;
+  height: auto;
+}
+
+.row:last-of-type h2 {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.row:last-of-type p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+
+.row img {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.row p {
+  margin: 20px;
+}
+
+/* Hover effect on images */
+.row img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add a subtle box shadow on hover */
+.row img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #6f7364;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    display: flex;
+
+  }
+
+
+
+.nav li a {
+  background-color: #333;
+  color: #fff;
+  background-color: #ccc;
+  color: #333;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  height: 80px;
+  width: 80px;
+}
+
+.nav li a:hover {
+  background-color: #ccc;
+  color: #333;
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #333;
+}
+
+
+@media (min-width: 850px) {
+  #form-nav {
+  padding-left: 380px;
+}
+
+}
